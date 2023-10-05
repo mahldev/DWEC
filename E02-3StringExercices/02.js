@@ -1,11 +1,15 @@
-const validateParams = ({ name = null, age = 0, comments = null }) => {
-  return name === null || comments === null || age < 18
+const validateParams = ({ name = "", age = 0, comments = "" }) => {
+  return name === null ||
+    name === "" ||
+    comments === null ||
+    comments === "" ||
+    age < 18
     ? null
     : { name, age, comments };
 };
 
 const displayValidateEmail = ({ name, age, comments }) => {
-  const template = `"A user has posted a comment from the website:
+  const template = `A user has posted a comment from the website:
     => name: ${name} 
     => age: ${age}
     => status: ${name} is a valid user

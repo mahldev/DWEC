@@ -2,10 +2,8 @@ const truncateString = (string, limit) => {
   const chars = string.split("");
   let res = "";
 
-  for (let index = 0; index < chars.length; index++) {
-    if (index < limit) {
+  for (let index = 0; index < limit; index++) {
       res += chars[index];
-    }
   }
   return res;
 };

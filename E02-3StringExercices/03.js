@@ -10,4 +10,4 @@ const nextCharInAlphabet = (string) => {
   return characters.map(mapNextChar).join(" ");
 };
 
-console.log(nextCharInAlphabet("Esto es una prueba "));
+console.log(nextCharInAlphabet("Esto es una prueba z"));
