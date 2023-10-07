@@ -12,4 +12,4 @@ const swapCase = (inputString) => {
     .join('')
 }
 
-console.log(swapCase('AaBbc'))
+console.log(swapCase('AaBbc AaBbc     AaBbc '))

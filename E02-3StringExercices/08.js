@@ -1,5 +1,6 @@
 const capitalizeWords = (inputString) => {
-  const wordArray = inputString.split(' ')
+  const cleanString = inputString.trim().replace(/\s+/g, ' ')
+  const wordArray = cleanString.split(' ')
 
   return wordArray
     .map((word) => {
@@ -9,4 +10,4 @@ const capitalizeWords = (inputString) => {
     .join(' ')
 }
 
-console.log(capitalizeWords('js string exercises'))
+console.log(capitalizeWords('js   string exercises '))
