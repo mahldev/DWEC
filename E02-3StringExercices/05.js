@@ -1,7 +1,10 @@
-const abbrevName = (string) => {
-  const [name, surname, ...rest] = string.split(" ");
+const abbrevName = (string = "") => {
+  const [name, ...rest] = string.split(" ");
+  const surnames = rest.map(sur => sur.charAt(0).concat(".")).join("")
 
-  return `${name} ${surname.charAt(0).concat(".")}`;
+  return `${name} ${surnames}`;
 };
 
-console.log(abbrevName("Robin Singh"));
+console.log(abbrevName("Robin Sal Fur Mave"));
+console.log(abbrevName());
+console.log(abbrevName(""));
