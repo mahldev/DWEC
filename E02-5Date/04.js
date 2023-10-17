@@ -1,13 +1,13 @@
 const formatDateToStringV1 = (date = new Date()) => {
   const [hours, minutes, seconds] = [
-    date.getHours().toString(),
-    date.getMinutes().toString(),
-    date.getSeconds().toString(),
+    date.getHours(),
+    date.getMinutes(),
+    date.getSeconds(),
   ];
-
-  return `${hours.length == 1 ? `0${hours}` : hours}:${
-    minutes.length == 1 ? `0${minutes}` : minutes
-  }:${seconds.length == 1 ? `0${seconds}` : seconds}`;
+  
+  return `${hours < 10 ? `0${hours}` : hours}:${
+    minutes < 10 ? `0${minutes}` : minutes
+  }:${seconds < 10 ? `0${seconds}` : seconds}`;
 };
 
 const formatDateToStringV2 = (date = new Date()) => {
