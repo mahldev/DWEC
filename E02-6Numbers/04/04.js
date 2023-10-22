@@ -72,12 +72,13 @@ function validateCreditCard ({ cardNumber, expirationDate }) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const inputCardNumber = document.getElementById('cardNumber')
-  const inputExpirationDate = document.getElementById('expirationDate')
-  const sendButton = document.getElementById('sendButton')
+  const inputCardNumber = document.getElementById('card-number')
+  const inputExpirationDate = document.getElementById('expiration-date')
+  // const sendButton = document.getElementById('sendButton')
+  const form = document.getElementById('card-form')
 
-  sendButton.addEventListener('click', () => {
-    const cardNumber = inputCardNumber.value
+  form.addEventListener('submit', () => {
+    const cardNumber = inputCardNumber.value.replace(/\s+/g, '')
     const expirationDate = inputExpirationDate.value
 
     const createADate = (date) => {

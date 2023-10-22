@@ -8,7 +8,7 @@ body {
   padding: 20px;
 }
 
-form {
+#card-form {
   display: flex;
   flex-flow: column nowrap;
   background: #f9f9f9;
