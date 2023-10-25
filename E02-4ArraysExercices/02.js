@@ -13,8 +13,8 @@ const studentArray = [
 
 const sortArrayBysurnames = (inputArray) => {
   return inputArray.sort((ln1, ln2) => {
-    const [_, ...surname1] = ln1.split(" ");
-    const [__, ...surname2] = ln2.split(" ");
+    const [,...surname1] = ln1.split(" ");
+    const [,...surname2] = ln2.split(" ");
 
     return surname1[0].localeCompare(surname2[0]);
   });
