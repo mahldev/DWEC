@@ -24,9 +24,9 @@ class Chronometer {
 
   getFormattedTime() {
     const [formattedHors, formattedMinutes, formattedSeconds] = [
-      this.hours < 10 ? `0${this.hours}` : this.hours,
-      this.minutes < 10 ? `0${this.minutes}` : this.minutes,
-      this.seconds < 10 ? `0${this.seconds}` : this.seconds,
+      this.hours.toString().padStart(2, "0"),
+      this.minutes.toString().padStart(2, "0"),
+      this.seconds.toString().padStart(2, "0"),
     ];
     return `${formattedHors}:${formattedMinutes}:${formattedSeconds}`;
   }
@@ -34,11 +34,14 @@ class Chronometer {
 
 start.addEventListener("click", () => {
   const chronometer = new Chronometer(0, 0, 0);
+
   const interval = setInterval(() => {
+    console.log(chronometer.getFormattedTime());
     timer.innerText = chronometer.getFormattedTime();
     chronometer.incrementSeconds();
-    stop.addEventListener("click", () => {
-      clearInterval(interval);
-    });
   }, 1000);
+
+  stop.addEventListener("click", () => {
+    clearInterval(interval);
+  });
 });
