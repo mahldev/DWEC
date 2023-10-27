@@ -48,7 +48,7 @@ main {
   border: none;
   font-size: 1em;
   cursor: pointer;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 300ms;
 }
 
 .remove-button:hover {
@@ -98,7 +98,7 @@ main {
   font-weight: 600;
   height: 64px;
   padding: 16px 24px;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 300ms ;
 }
 
 #form-item button:hover {

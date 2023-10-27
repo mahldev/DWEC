@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2b2e;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.control-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-control-columns {}
+
+.btn-control-columns {}
+
+.container {
+}
+
+
+table {
+  border: solid 1px;
+  padding: .5em;
+}
+
+td {
+  padding: .5em;
+  border: solid 1px;
+}
+
+.control-rows {}
+
+.btn-control-rows {}
