@@ -5,12 +5,25 @@
 }
 
 body {
+  font-family: system-ui;
   background-color: #2a2b2e;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 3em;
+  color: lightgray;
+}
+
 main {
+  margin-top: 2em;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+section {
   margin-top: 2em;
   display: flex;
   justify-content: center;
@@ -21,24 +34,44 @@ main {
   flex-direction: column;
 }
 
-.btn-control-columns {}
-
-.btn-control-columns {}
+.btn-control {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.7em;
+  cursor: pointer;
+}
 
 .container {
+  margin-left: .5em;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
 }
 
 
 table {
-  border: solid 1px;
-  padding: .5em;
+  border: solid 2px;
+  border-radius: .7em;
+  padding: .1em;
+  background-color: gray;
+  font-size: 1.7em;
+  border-spacing: .2em;
 }
+
 
 td {
   padding: .5em;
-  border: solid 1px;
+  border: solid 2px;
+  border-radius: .7em;
+  transition: all 200ms;
+  cursor: pointer;
 }
 
-.control-rows {}
+td:hover {
+  transform: translateY(-2px);
+}
 
-.btn-control-rows {}
+.control-rows {
+  display: flex;
+  justify-content: center;
+} 

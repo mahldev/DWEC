@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color-scheme: dark;
+  background-color: #181818;
+  color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+table {
+  border-spacing: .4em;
+}
+
+td {
+  border-radius: .3em;
+  width: 100px;
+  height: 100px;
+}
