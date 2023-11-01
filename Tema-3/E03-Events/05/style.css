@@ -37,6 +37,10 @@ main {
   height: 70vh;
 }
 
+form {
+  margin-top: 1.5em;
+}
+
 .container {
   position: relative;
   display: flex;

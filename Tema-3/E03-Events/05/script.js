@@ -3,6 +3,7 @@ const table = document.querySelector('table')
 const colorize = document.getElementById('colorize-button')
 const clear = document.getElementById('clear-button')
 const tableButtons = document.getElementById('buttons-table')
+const h1 = document.querySelector('h1')
 
 const toggleHidden = (element) => element.forEach(e => e.hidden = !e.hidden)
 const createTr = () => document.createElement('tr')
@@ -15,7 +16,7 @@ form.addEventListener('submit', (event) => {
   const width = document.getElementById('width').value
   const height = document.getElementById('height').value
 
-  toggleHidden([form, table, colorize, clear, tableButtons])
+  toggleHidden([form, table, colorize, clear, tableButtons, h1])
 
   const trs = Array.from({ length: rows }, createTr) 
 

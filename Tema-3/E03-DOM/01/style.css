@@ -1,0 +1,12 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: system-ui;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}

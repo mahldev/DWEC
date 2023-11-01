@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.buttons-wrapper {
+  margin-top: 2em;
+}
+
+.buttons {
+  font-size: 2em;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

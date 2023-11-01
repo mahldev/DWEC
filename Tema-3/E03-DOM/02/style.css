@@ -1,0 +1,41 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  color-scheme: dark;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #181818;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.container-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 2em;
+}
+
+#container-images {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
