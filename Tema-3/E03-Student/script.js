@@ -26,22 +26,18 @@ const students = {
   ],
 };
 
-const table = document.querySelector('tbody')
+const root = document.getElementById('root')
 
-function createStudent(fills) {
-  const tr = document.createElement('tr');
-  fills.forEach(fill => tr.append(fill));
-  return tr;
+const stundentCard = ({ registrationNum, name, age, emancipated, photo, previousGrades }) => {
+  return `<div data-id="${registrationNum}" class="student-card">
+            <h2>${name}</h2>
+            <img src="./img/${photo ? photo: 'default.png'}" />
+            <p>Age: ${age}</p>
+            <p>Emancipated: ${emancipated ? "✅" : "❌" }</p>
+            <p>Previous Grades: ${previousGrades.length === 0 ? '?' : previousGrades}</p>
+          </div>`
 }
 
-const createFill = (data) =>
-  (td => td.innerText = data)(document.createElement('td'))
-
-const studentData = students.students.map(student =>
-  Object.values(student).map(fill => createFill(fill))
-)
-
-studentData.forEach(data => {
-  const student = createStudent(data)
-  table.append(student)
-})
+root.innerHTML = students.students
+  .map(stundentCard)
+  .reduce((acc, curr) => acc + curr)

@@ -12,10 +12,19 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 2em;
+  gap: 2em;
 }
 
 .buttons {
   display: flex;
   flex-direction: column;
   gap: .5em;
+}
+
+#input-container {
+  display: flex;
+  gap: .5em;
+}
+.squareInput {
+  width: 40px;
 }

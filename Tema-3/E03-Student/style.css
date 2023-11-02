@@ -1,6 +1,44 @@
-body {
+:root {
   color-scheme: dark;
-  background-color: #181818;
-  color: #fff;
   font-family: system-ui;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+#root{
+  display: flex;
+  gap: 1em;
+}
+
+.student-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.student-card {
+  border: 1px solid #ccc;
+  border-radius: .7em;
+  padding: 1em;
+  width: 250px;
+}
+
+.student-card img {
+  /* border: 1px solid; */
+  width: 100px;
+  height: 100px;
 }
