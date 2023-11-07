@@ -1,0 +1,48 @@
+[
+  {
+    "Title": "The Great Gatsby",
+    "Genre": "Classic",
+    "Author": ["F. Scott Fitzgerald"],
+    "Pages": 180,
+    "Published": "1925-04-10",
+    "Read": true,
+    "Website": "https://example.com/greatgatsby"
+  },
+  {
+    "Title": "To Kill a Mockingbird",
+    "Genre": "Fiction",
+    "Author": ["Harper Lee"],
+    "Pages": 324,
+    "Published": "1960-07-11",
+    "Read": true,
+    "Website": "https://example.com/tokillamockingbird"
+  },
+  {
+    "Title": "1984",
+    "Genre": "Dystopian",
+    "Author": ["George Orwell"],
+    "Pages": 328,
+    "Published": "1949-06-08",
+    "Read": true,
+    "Website": "https://example.com/1984"
+  },
+  {
+    "Title": "The Alchemist",
+    "Genre": "Fiction",
+    "Author": ["Paulo Coelho"],
+    "Pages": 197,
+
+    "Published": "1988-01-20",
+    "Read": true,
+    "Website": "https://example.com/alchemist"
+  },
+  {
+    "Title": "Harry Potter",
+    "Genre": "Fantasy",
+    "Author": ["J.K. Rowling"],
+    "Pages": 309,
+    "Published": "2022-06-26",
+    "Read": false,
+    "Website": "https://example.com/harrypotter"
+  }
+]
