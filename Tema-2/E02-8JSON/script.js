@@ -1,14 +1,13 @@
 import { bookCard } from './bookCard.js'
 import {} from './events.js'
 
-const root = document.getElementById('root')
-
 async function getBooks () {
-  const response = await fetch('./books.json')
-  return await response.json()
+  return fetch('./books.json').then((response) => response.json())
 }
 
-(async () => {
-  const books = await getBooks()
-  root.innerHTML = books.map(bookCard).reduce((acc, curr) => acc + curr)
-})()
+function render (data) {
+  const root = document.getElementById('root')
+  root.innerHTML = data.map(bookCard).reduce((acc, curr) => acc + curr)
+}
+
+render(await getBooks())
