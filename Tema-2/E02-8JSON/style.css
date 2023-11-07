@@ -19,9 +19,20 @@ main {
 
 #root {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 20px;
-  justify-content: center;
+}
+
+@media (width > 800px ) {
+  #root {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 1100px ) {
+  #root {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .book-container {
@@ -88,4 +99,8 @@ main {
   display: flex;
   margin-top: 1em;
   gap: .5em;
+}
+
+.book-container[hidden] {
+  display: none;
 }
