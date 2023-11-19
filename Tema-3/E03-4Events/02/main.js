@@ -18,6 +18,7 @@ $select.addEventListener('change', (event) => {
     $body.style.colorScheme = 'dark'
     $body.style.backgroundColor = '#123122'
   }
+
 })
 
 

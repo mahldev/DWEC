@@ -11,7 +11,7 @@ const createOption = (name) => {
 function initHTMLSelect (regionsNames) {
   $('#select').innerHTML = regionsNames
     .map(createOption)
-    .join('')
+    .reduce((acc, curr) => acc + curr)
 }
 
 function createContryRow ({ name, companies }) {
@@ -19,7 +19,7 @@ function createContryRow ({ name, companies }) {
   const numberOfCompanies = companies.length
   const comapinesNames = companies
     .map((company) => createP(Object.keys(company)))
-    .join('')
+    .reduce((acc, curr) => acc + curr)
 
   return `<tr>
             <td class="countriesTd">${name}</td>

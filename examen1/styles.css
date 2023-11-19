@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+  padding: 1em;
+}
+
+
+thead tr {
+  font-weight: bold;
+}
+
+td,
+th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.region-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.companies {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
