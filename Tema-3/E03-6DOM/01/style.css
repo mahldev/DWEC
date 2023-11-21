@@ -1,18 +1,44 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  margin: 0 auto;
+  max-width: 800px;
+}
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+#grandfather {
+  background-color: lightblue;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#father1 {
+  background-color: lightgreen;
+}
+
+#child1 {
+  background-color: lightyellow;
+}
+
+#child2 {
+  background-color: lightgray;
+}
+
+#grandchild1 {
+  background-color: lightpink;
+}
+
+#grandchild2 {
+  background-color: lightcoral;
+}
+
+#father2 {
+  background-color: lightsalmon;
+}
+
+#child3 {
+  background-color: lightseagreen;
 }

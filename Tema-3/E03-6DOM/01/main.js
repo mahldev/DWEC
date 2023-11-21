@@ -1,14 +1,24 @@
-import './output.css'
+const $ = (selector) => document.querySelector(selector)
 
-import { Community } from './components/Community.js'
+const $info = $('#info')
 
-async function getData (url) {
-  return fetch(url).then(res => res.json())
+document.querySelectorAll('.element').forEach(e => {
+    e.addEventListener('click', (event) => {
+        showAllInfo(event.target)
+    })
+})
+
+
+function getFather(nodo) {
+  return nodo.parentElement ? nodo.parentElement : null
 }
 
-const communities = await getData('./public/arbol.json')
+function getAllSiblings(nodo) {
+  return nodo.parentNode ? nodo.parentNode.children : null
+}
 
-document.querySelector('#app').innerHTML = (/* html */`
-  <h1 class="font-light">Comunidades</h1>
-  ${communities.map(community => Community(community)).join('')}
-`)
+function showAllInfo(nodo) {
+  const parentNode = getFather(nodo)
+
+  $info.innerHTML = parentNode.innerHTML
+}
