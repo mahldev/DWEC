@@ -1,44 +1,77 @@
-body {
-  margin: 0 auto;
-  max-width: 800px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-div {
+body {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
+.element {
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  gap: 16px;
+  padding: 16px;
 }
+
+
 
 #grandfather {
   background-color: lightblue;
+  width: 1000px;
+  height: 600px;
 }
 
 #father1 {
   background-color: lightgreen;
-}
-
-#child1 {
-  background-color: lightyellow;
-}
-
-#child2 {
-  background-color: lightgray;
-}
-
-#grandchild1 {
-  background-color: lightpink;
-}
-
-#grandchild2 {
-  background-color: lightcoral;
+  width: 500px;
+  height: 500px;
 }
 
 #father2 {
   background-color: lightsalmon;
+  width: 500px;
+  height: 500px;
+}
+
+#child1 {
+  background-color: lightyellow;
+  width: 250px;
+  height: 250px;
+}
+
+#child2 {
+  background-color: lightgray;
+  width: 250px;
+  height: 250px;
 }
 
 #child3 {
   background-color: lightseagreen;
+  width: 250px;
+  height: 250px;
+}
+
+#grandchild1 {
+  background-color: lightpink;
+  width: 125px;
+  height: 125px;
+}
+
+#grandchild2 {
+  background-color: lightcoral;
+  width: 125px;
+  height: 125px;
+}
+
+#info {
+  width: 1000px;
 }
