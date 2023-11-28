@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --font-family: system-ui;
+    font-family: var(--font-family);
+    font-size: large;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#app input {
+    padding: 10px;
+    font-size: large;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    width: 300px;
+}
+
+#app button {
+    padding: 10px;
+    font-size: large;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+#app .wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+#app {
+    padding: 10px;
+    width: 100%;
+}
+
+#app .result {
+    margin-top: 10px;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr);
+    column-gap: 20px;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.user img {
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.user p {
+    font-style: italic;
+}
+
+
+.followers-info,
+.following-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.followers-info h3,
+.following-info h3 {
+    font-size: 2em;
+}
+
+.profile-user img {
+    width: 30%;
+    border-radius: 4px;
+}
+
+.profiles-users {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 70vh;
+    gap: 20px;
+}
+
+.profile-user {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-user .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media screen and (width < 1400px) {
+    .result {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 100px;
+    }
+
+    .following-info {
+        grid-column: 2 / 2;
+    }
+
+}
+
+@media screen and (width < 1000px) {
+
+    .result {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .following-info {
+        grid-column: 2 / 2;
+    }
+
+    .user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #app .wrapper {
+        justify-content: center;
+    }
+
+    .followers-info h3,
+    .following-info h3 {
+        font-size: 2em;
+        margin-bottom: 40px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+}
