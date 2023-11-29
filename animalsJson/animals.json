@@ -1,0 +1,519 @@
+{
+    "animals": {
+        "Meowsy": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "tuna",
+                    "catnip"
+                ],
+                "dislikes": [
+                    "ham",
+                    "zucchini"
+                ]
+            }
+        },
+        "Barky": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "bones",
+                    "carrots"
+                ],
+                "dislikes": [
+                    "tuna"
+                ]
+            }
+        },
+        "Purrpaws": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "mice"
+                ],
+                "dislikes": [
+                    "cookies"
+                ]
+            }
+        },
+        "Whiskers": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "salmon",
+                    "catnip"
+                ],
+                "dislikes": [
+                    "cheese",
+                    "lettuce"
+                ]
+            }
+        },
+        "Rover": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "steak",
+                    "potatoes"
+                ],
+                "dislikes": [
+                    "fish",
+                    "broccoli"
+                ]
+            }
+        },
+        "Fluffy": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "tuna",
+                    "feathers"
+                ],
+                "dislikes": [
+                    "chocolate"
+                ]
+            }
+        },
+        "Rocky": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "chicken",
+                    "peas"
+                ],
+                "dislikes": [
+                    "carrots"
+                ]
+            }
+        },
+        "Mittens": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "tuna",
+                    "mice"
+                ],
+                "dislikes": [
+                    "broccoli",
+                    "carrots"
+                ]
+            }
+        },
+        "Max": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "bacon",
+                    "sausages"
+                ],
+                "dislikes": [
+                    "spinach",
+                    "lamb"
+                ]
+            }
+        },
+        "Shadow": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "salmon",
+                    "shrimp"
+                ],
+                "dislikes": [
+                    "onions",
+                    "peppers"
+                ]
+            }
+        },
+        "Buddy": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "beef",
+                    "sweet potatoes"
+                ],
+                "dislikes": [
+                    "fish",
+                    "cabbage"
+                ]
+            }
+        },
+        "Smokey": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "chicken",
+                    "tuna"
+                ],
+                "dislikes": [
+                    "liver",
+                    "green beans"
+                ]
+            }
+        },
+        "Lucky": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "duck",
+                    "pumpkin"
+                ],
+                "dislikes": [
+                    "cheese",
+                    "carrots"
+                ]
+            }
+        },
+        "Oreo": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "fish",
+                    "catnip"
+                ],
+                "dislikes": [
+                    "peanut butter",
+                    "tomatoes"
+                ]
+            }
+        },
+        "Charlie": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "turkey",
+                    "rice"
+                ],
+                "dislikes": [
+                    "mushrooms",
+                    "liver"
+                ]
+            }
+        },
+        "Socks": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "tuna",
+                    "chicken"
+                ],
+                "dislikes": [
+                    "potatoes",
+                    "carrots"
+                ]
+            }
+        },
+        "Zeus": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "lamb",
+                    "potatoes"
+                ],
+                "dislikes": [
+                    "fish",
+                    "onions"
+                ]
+            }
+        },
+        "Misty": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "salmon",
+                    "catnip"
+                ],
+                "dislikes": [
+                    "cheese",
+                    "lettuce"
+                ]
+            }
+        },
+        "Rosie": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "chicken",
+                    "carrots"
+                ],
+                "dislikes": [
+                    "liver",
+                    "broccoli"
+                ]
+            }
+        },
+        "Jinx": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "mice",
+                    "tuna"
+                ],
+                "dislikes": [
+                    "cookies",
+                    "spinach"
+                ]
+            }
+        },
+        "Bear": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "beef",
+                    "sweet potatoes"
+                ],
+                "dislikes": [
+                    "fish",
+                    "cabbage"
+                ]
+            }
+        },
+        "Cleo": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "fish",
+                    "shrimp"
+                ],
+                "dislikes": [
+                    "onions",
+                    "peppers"
+                ]
+            }
+        },
+        "Cooper": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "bacon",
+                    "sausages"
+                ],
+                "dislikes": [
+                    "spinach",
+                    "lamb"
+                ]
+            }
+        },
+        "Oliver": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "chicken",
+                    "tuna"
+                ],
+                "dislikes": [
+                    "liver",
+                    "green beans"
+                ]
+            }
+        },
+        "Bella": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "duck",
+                    "pumpkin"
+                ],
+                "dislikes": [
+                    "cheese",
+                    "carrots"
+                ]
+            }
+        },
+        "Simba": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "fish",
+                    "catnip"
+                ],
+                "dislikes": [
+                    "peanut butter",
+                    "tomatoes"
+                ]
+            }
+        },
+        "Lola": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "turkey",
+                    "rice"
+                ],
+                "dislikes": [
+                    "mushrooms",
+                    "liver"
+                ]
+            }
+        },
+        "Milo": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "tuna",
+                    "chicken"
+                ],
+                "dislikes": [
+                    "potatoes",
+                    "carrots"
+                ]
+            }
+        },
+        "Apollo": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "lamb",
+                    "potatoes"
+                ],
+                "dislikes": [
+                    "fish",
+                    "onions"
+                ]
+            }
+        },
+        "Luna": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "salmon",
+                    "catnip"
+                ],
+                "dislikes": [
+                    "cheese",
+                    "lettuce"
+                ]
+            }
+        },
+        "Cody": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "chicken",
+                    "carrots"
+                ],
+                "dislikes": [
+                    "liver",
+                    "broccoli"
+                ]
+            }
+        },
+        "Mocha": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "mice",
+                    "tuna"
+                ],
+                "dislikes": [
+                    "cookies",
+                    "spinach"
+                ]
+            }
+        },
+        "Daisy": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "beef",
+                    "sweet potatoes"
+                ],
+                "dislikes": [
+                    "fish",
+                    "cabbage"
+                ]
+            }
+        },
+        "Leo": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "fish",
+                    "shrimp"
+                ],
+                "dislikes": [
+                    "onions",
+                    "peppers"
+                ]
+            }
+        },
+        "Sophie": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "bacon",
+                    "sausages"
+                ],
+                "dislikes": [
+                    "spinach",
+                    "lamb"
+                ]
+            }
+        },
+        "Oscar": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "chicken",
+                    "tuna"
+                ],
+                "dislikes": [
+                    "liver",
+                    "green beans"
+                ]
+            }
+        },
+        "Chloe": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "duck",
+                    "pumpkin"
+                ],
+                "dislikes": [
+                    "cheese",
+                    "carrots"
+                ]
+            }
+        },
+        "Molly": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "turkey",
+                    "rice"
+                ],
+                "dislikes": [
+                    "mushrooms",
+                    "liver"
+                ]
+            }
+        },
+        "Jack": {
+            "species": "cat",
+            "foods": {
+                "likes": [
+                    "tuna",
+                    "chicken"
+                ],
+                "dislikes": [
+                    "potatoes",
+                    "carrots"
+                ]
+            }
+        },
+        "Lucy": {
+            "species": "dog",
+            "foods": {
+                "likes": [
+                    "lamb",
+                    "potatoes"
+                ],
+                "dislikes": [
+                    "fish",
+                    "onions"
+                ]
+            }
+        }
+    }
+}
