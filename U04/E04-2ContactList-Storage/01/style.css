@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: system-ui;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+section {
+  padding: 16px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+input {
+  padding: 12px 10px;
+  font-size: large;
+  border-radius: 6px;
+  font-family: system-ui;
+  outline: 1px solid #eceef0;
+  border: none;
+}
+
+input:focus {
+  outline: 1px solid #cdcdcd;
+}
+
+button {
+  align-self: start;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+  font-size: 1.01em;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d1dfd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead td {
+  font-weight: bold;
+}
+
+thead tr {
+  border-bottom: 1px solid #000;
+}
+
+tr {
+  height: 50px;
+}
+
+td {
+  min-width: 100px;
+}
