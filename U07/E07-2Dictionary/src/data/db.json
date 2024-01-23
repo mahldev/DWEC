@@ -1,11 +1,29 @@
 {
-  "example@email.com": {
-    "firstName": "Paco",
-    "lastName": "Ruiz",
-    "brithday": "01/04/2002",
+  "john.doe@example.com": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "brithday": "05/15/1990",
     "gender": "M",
-    "email": "example@email.com",
+    "email": "john.doe@example.com",
     "phoneNumber": "123123123",
     "isActive": true
+  },
+  "jane.smith@example.com": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "brithday": "12/22/1985",
+    "gender": "F",
+    "email": "jane.smith@example.com",
+    "phoneNumber": "123123123",
+    "isActive": true
+  },
+  "alice.jones@example.com": {
+    "firstName": "Alice",
+    "lastName": "Jones",
+    "brithday": "03/10/2000",
+    "gender": "F",
+    "email": "alice.jones@example.com",
+    "phoneNumber": "123123123",
+    "isActive": false
   }
 }
