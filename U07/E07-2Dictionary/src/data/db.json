@@ -1,0 +1,11 @@
+{
+  "example@email.com": {
+    "firstName": "Paco",
+    "lastName": "Ruiz",
+    "brithday": "01/04/2002",
+    "gender": "M",
+    "email": "example@email.com",
+    "phoneNumber": "123123123",
+    "isActive": true
+  }
+}
